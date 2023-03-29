@@ -1,0 +1,47 @@
+#img_apello_friends{
+    width: 150px;
+}
+
+#friend-one{
+        padding: 3px;
+        right: 0;
+        left: 0;
+        margin-bottom: 5px;
+        border: solid thin #aaa;
+        padding: 10px;
+        background-color: white;    
+        padding-bottom: 40px;
+}
+
+#apello_text_friend{
+    font-weight: bold;
+    color: #405dbd;
+    -webkit-user-drag: none;
+    -moz-user-select: none;
+    margin-bottom: 10px;
+}
+
+@media (prefers-color-scheme :dark){
+    
+    #friend-one{
+        border: solid thin black;
+        background: linear-gradient(90deg,rgb(22, 22, 22), rgb(71, 71, 71),rgb(22, 22, 22));
+    }
+
+    #apello_text_friend{
+        color: #DFDFEB;
+    }
+
+    #content-holder{
+        background: rgb(43, 43, 43);
+    }
+
+    body{
+        background: rgb(43, 43, 43)
+    }
+}
+
+
+/*switches to light mode*/
+@media (prefers-color-scheme :light){
+}

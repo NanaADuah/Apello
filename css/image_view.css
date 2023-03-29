@@ -1,0 +1,39 @@
+
+@media screen and (min-width: 320) and (max-width: 720px){
+    #content{
+        height: 100%;       
+
+    }
+
+    form{
+        padding: 0px;
+        margin: 0px;
+    }
+
+    #post-one{
+        margin-top:20px;
+        padding-top: 20px;
+
+    }
+
+    #post-content{
+        padding: 0;
+        margin: 5px;
+        margin-top: 10px;
+        left: 0;
+        right: 0;
+    }
+}
+@media screen and (min-width: 0px) and (max-width: 320px){
+    content{
+        height: 100%;
+    }
+    
+    #post-content{
+        padding: 0;
+        margin: 5px;
+        margin-top: 10px;
+        left: 0;
+        right: 0;
+    }
+}

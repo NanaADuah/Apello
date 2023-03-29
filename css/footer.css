@@ -1,0 +1,51 @@
+#footer{
+    display: flex; 
+    height: 40px;
+    width: 100%;
+    /* background: yellow ; */
+    bottom: 0;
+    /* display: inline-flex; */
+    /* position: fixed; */
+    position: sticky;
+    justify-content: center;
+    text-align: center;
+    /* vertical-align: middle; */
+    align-items: center;
+}
+
+#back-blur{
+    align-items: center;
+    display: flex; 
+    backdrop-filter: blur(10px) brightness(0.8);
+    width: 100%;
+    height: 40px;
+}
+
+#options_footer{
+    flex:1;
+    /* flex-direction: column; */
+    align-items: center;
+    /* mix-blend-mode: difference; */
+    height: 40px;
+    /* width: auto; */
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    /* display: grid; */
+    /* display: inline-block; */
+    /* background: pink; */
+    top: 50%;
+    bottom: 50%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+#svg{
+    width: auto;
+    flex: 1;
+    max-width: 25px;
+    vertical-align: middle;
+    margin: auto;
+}

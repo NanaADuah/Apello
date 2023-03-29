@@ -1,0 +1,212 @@
+.body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    user-select: none;
+}
+
+#delete-button{
+    background-color: #d32828;
+    border: none;
+    color: white;
+    font-size: 14px;
+    padding: 4px;
+    border-radius: 20px;
+    width: 150px;
+    outline: none;
+    text-align:center; 
+    cursor: pointer;
+
+}
+#post-one{
+    user-select: none;
+    height:auto;
+    min-height:450px;
+}
+#delete-post{
+text-transform: uppercase;
+}
+
+#delete-button:hover{
+    transform: scale(1.04);
+    background: #9b1515;
+    transition: 0.3s ease-in-out;
+}
+
+
+#delete_img{
+    width: auto;    
+}
+
+
+#cancel-button{
+    background-color: #405dbd;
+    border: none;
+    color: white;
+    padding: 4px;
+    font-size: 14px;
+    border-radius: 20px;
+    width: 150px;
+    text-decoration: none;
+    cursor: pointer;
+    text-align:center; 
+    outline: none;
+    user-select: none;
+
+}
+
+#cancel-button:hover{
+    transform: scale(1.04);
+    background: #172c72;
+    transition: 0.3s ease-in-out;
+}
+
+#del_image{
+    float:left;
+    border-radius:5px;
+    width:65px; 
+    }
+
+#text_del{
+    margin-top: 10px;
+    text-align:left;
+    font-size:13px;
+    margin-left:5px;
+    float:left
+}
+
+#name_del{
+    color:#405dbd;
+    font-size:14px;
+    margin-left:5px;
+    float:left;
+    font-weight:bold;   
+}
+
+textarea{
+    background:#eee;
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 720px){
+
+    #post-one{
+        display: grid;
+        height: auto;
+        min-height:0px;
+    }
+
+    #text_del{
+        margin-top: 5px;
+        text-align:left;
+        font-size:12px;
+        margin-left:5px;
+    }   
+    
+    #post-content{
+        padding: 0px;
+       
+    }
+
+    img{
+        width: 40px;
+    }
+
+    #del_image{
+        width: 45px;
+    }
+
+    #delete-post{
+        text-transform: uppercase;
+    }
+    
+    #del-heading{
+        height: 50px;
+        padding-bottom: 10px;
+        margin-bottom: none;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 720px){
+    #post-one{
+        display: grid;
+        height: auto;
+        min-height:0px;
+    }
+
+    #text_del{
+        margin-top: 5px;
+        text-align:left;
+        font-size:12px;
+        margin-left:5px;
+    }   
+    
+    #post-content{
+        padding: 0px; height: 100%;
+        
+    }
+
+    img{
+        width: 40px;
+    }
+
+    #del_image{
+        width: 45px;
+    }
+
+    #delete-post{
+        padding-top: 10px;
+        margin: 0;  
+        text-transform: uppercase;
+    }
+    
+    #del-heading{
+        height: auto;
+        padding-bottom: 10px;
+        margin-bottom: none;
+    }
+
+    #delete-button{
+        margin-bottom: 5px;
+    }
+
+    #sure_text{
+        font-size: 12px;
+    }
+
+    #name_del{
+        color:#405dbd;
+        font-size:12px;
+        margin-left:5px;
+        float:left;
+        font-weight:bold;
+    }
+}
+
+@media (prefers-color-scheme :dark){
+    #cancel-button{
+        background: #444;
+        /* linear-gradient(0deg,#777777, #999999); */
+        border: none;
+        color: white;
+        padding: 4px;
+        font-size: 14px;
+        border-radius: 20px;
+        width: 150px;
+        text-decoration: none;
+        cursor: pointer;
+        text-align:center; 
+        outline: none;
+        user-select: none;
+    }
+
+    textarea{
+
+        color: #DFDFEB;
+        background:black;
+    }
+
+    #cancel-button:hover{
+        transform: scale(1.04);
+        background: linear-gradient(0deg,#636363, #868686);
+        transition: 0.3s ease-in-out;
+    }
+}

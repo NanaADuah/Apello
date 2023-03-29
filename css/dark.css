@@ -1,0 +1,31 @@
+:root{
+    --main-color: black;
+}
+
+/*switches to dark mode*/
+@media (prefers-color-scheme :dark){
+  #photo-content{  
+      background: #222;
+      /* linear-gradient(90deg,rgb(22, 22, 22), rgb(71, 71, 71),rgb(22, 22, 22)); */
+  } 
+  
+  #settings-content{  
+      background: #222;
+      /* linear-gradient(90deg,rgb(22, 22, 22), rgb(71, 71, 71),rgb(22, 22, 22)); */
+  }
+
+  #apello_text_friend{
+    color: #DFDFEB;
+  }
+}
+
+
+/*switches to light mode*/
+@media (prefers-color-scheme :light){
+    #photo-content{  
+        background-color: white;
+        color: #405dbd;
+    }
+
+
+}
