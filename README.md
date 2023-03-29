@@ -1,2 +1,2 @@
 # Apello
- Social Media Network
+ Social Media Network Created using PHP and JavaScript
